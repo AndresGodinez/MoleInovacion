@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mole Doña Lore :)</title>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="mi_css.css">
+	<script src="jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/npm.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <script src="calcular.js"></script>
+</head>
+<body role="document">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand lobster" href="index.html">Mole Inovación</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ingredientes <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="1kg.html">1kg</a></li>
+                <li><a href="5kg.html">5kg</a></li>
+              </ul>
+            </li>
+            <li><a href="receta.html">Receta</a></li>
+            <li><a href="muestra.html">Muestra</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h2 id="marca" class="lobster">Mole La innovación</h2>
+        <h4 class="roboto">Cantidad a elaborar <form id="cantidadesFormulario"> 
+        <input type="text" id="cantidad"   size="5">   <input type="button" id="boton" class="btn btn-info" value="Calcular"> </form> </h4>
+        <table class="OpenSans table table-striped">
+          <tr>
+            <th>Cantidad</th>
+            <th>Producto</th>
+            <th>Costo</th>
+          </tr>
+          <tr>
+            <td id="cantidadChileSeco"></td>
+            <td>Chile Seco</td>
+            <td id="costoChileSeco"></td>
+          </tr>
+          <tr>
+            <td id="cantidadPepitoria"></td>
+            <td>Pepitoria</td>
+            <td id="costoPepitoria"></td>
+          </tr>
+          <tr>
+            <td id="cantidadAjonjoli"></td>
+            <td>Ajonjoli</td>
+            <td id="costoAjonjoli"></td>
+          </tr>
+          <tr>
+            <td id="cantidadCacahuate"></td>
+            <td>Cacahuate</td>
+            <td id="costoCacahuate"></td>
+          </tr>
+          <tr>
+            <td id="cantidadAlmendras"></td>
+            <td>Almendras</td>
+            <td id="costoAlmendras"></td>
+          </tr>
+          <tr>
+            <td id="cantidadUvasPasas"></td>
+            <td>Uvas pasas</td>
+            <td id="costoUvasPasas"></td>
+          </tr>
+          <tr>
+            <td id="cantidadChocolate"></td>
+            <td>Chocolate</td>
+            <td id="costoChocolate"></td>
+          </tr>
+          <tr>
+            <td id="cantidadAzucar"></td>
+            <td>Azucar</td>
+            <td id="costoAzucar"></td>
+          </tr>
+          <tr>
+            <td id="cantidadCanela"></td>
+            <td>Canela</td>
+            <td id="costoCanela"></td>
+          </tr>
+          <tr>
+            <td id="cantidadGalleta"></td>
+            <td>Galletas</td>
+            <td id="costoGalletas"></td>
+          </tr> 
+          <tr>
+            <td></td>
+            <td><strong>Total</strong></td>
+            <td id="total"><strong></strong></td>
+          </tr>                         
+        </table>
+      </div>
+</div>
+	
+</body>
+</html>

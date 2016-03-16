@@ -1,0 +1,26 @@
+body{
+	background: #1CFF55;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+	margin-top: 7em;
+	border-radius: 3em;
+}
+.OpenSans{
+	font-family: 'Open Sans', sans-serif;
+}
+.lobster{
+	font-family: Lobster;
+
+}
+.chica{
+	width: 540px;
+	height: 440px;
+	border-radius: 3em;
+}
+#receta{
+	text-align: justify;
+}
+#cantidad{
+	padding: none;	
+	margin:none;
+}
